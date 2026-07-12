@@ -1,6 +1,7 @@
+
 # LAPORAN KOMPREHENSIF UJIAN AKHIR SEMESTER (UAS) KECERDASAN BUATAN
 
-**Mata Kuliah:** Kecerdasan Buatan / Deep Learning  
+**Mata Kuliah:** Kecerdasan Buatan 
 **Topik Proyek:** Klasifikasi Penyakit Daun Padi Menggunakan Arsitektur EfficientNetB0 dan MobileNetV2
 
 **Anggota Kelompok:**
@@ -180,7 +181,8 @@ Melalui visualisasi _Confusion Matrix side-by-side_:
 - **MobileNetV2** menunjukkan sebaran error yang sedikit lebih tinggi pada kelas daun yang memiliki bercak tipis, namun tetap mempertahankan performa yang stabil dan solid di atas ambang batas standar kelulusan tugas (85%).
 
 
-<img width="536" height="393" alt="output" src="https://github.com/user-attachments/assets/c920cc6c-f674-472a-b07c-5aa979234d45" />
+<img width="1355" height="590" alt="output" src="https://github.com/user-attachments/assets/69ba698d-f77c-4caf-8063-8f1d6cd3279c" />
+
 
 Confusion Matrix di atas memetakan performa klasifikasi model secara mendetail untuk setiap kelas target. Sumbu vertikal mewakili label asli dari lapangan (True Label), sedangkan sumbu horizontal mewakili hasil tebakan model (Predicted Label). Kehebatan model ini ditunjukkan oleh dominasi angka yang sangat tinggi menumpuk di sepanjang garis diagonal utama, yang berarti hampir seluruh data tes berhasil ditebak dengan benar (misalnya, 218 sampel Healthy tertebak 100% sempurna).
 
