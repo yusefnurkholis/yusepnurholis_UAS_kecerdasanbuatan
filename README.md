@@ -39,6 +39,7 @@ Repositori ini dibuat untuk memenuhi tugas **Ujian Akhir Semester (UAS) Mata Kul
 ## Arsitektur Repositori
 
 UAS-KecerdasanBuatan/
+
 ├── README.md # Dokumen panduan utama repositori & penjelasan langkah pengerjaan
 
 ├── Laporan_uas.md # Laporan komprehensif tertulis yang mencakup Poin 1 sampai Poin 10
