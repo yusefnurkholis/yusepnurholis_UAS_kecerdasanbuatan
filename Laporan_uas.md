@@ -94,6 +94,12 @@ Tahapan penyiapan data dirancang menggunakan standar terbaik penanganan data spa
 3. **Pipeline Data Efisien (tf.data API):**
    Seluruh data dimuat menggunakan objek `tf.data.Dataset`. Proses pemuatan gambar digabungkan dengan metode `.prefetch(tf.data.AUTOTUNE)` dan pencatatan batch sebesar 32 (`BATCH_SIZE = 32`). Fitur ini mengizinkan CPU untuk menyiapkan data batch berikutnya selagi GPU sedang memproses batch saat ini, mengoptimalkan kecepatan latih hingga 2-3 kali lebih cepat.
 
+| Jenis Subset Data | Rasio Pembagian | Jumlah Citra (Sampel) | Kegunaan Utama Komputasi |
+| :--- | :---: | :---: | :--- |
+| **Data Training (Latih)** | 70% | 4.152 | Memperbarui bobot (*weights*) internal arsitektur jaringan |
+| **Data Validation (Validasi)** | 15% | 890 | Menilai performa model tiap epoch & optimasi parameter |
+| **Data Testing (Uji)** | 15% | 890 | Pengujian independen performa akhir akurasi model |
+| **Total Keseluruhan** | **100%** | **5.932** | **Dataset Terintegrasi** |
 ---
 
 ## 6. Modeling
