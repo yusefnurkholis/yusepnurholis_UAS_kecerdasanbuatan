@@ -133,11 +133,10 @@ Evaluasi model dilakukan secara adil dan objektif menggunakan data dari **Test S
 
 ### 1. Tabel Komparasi Metrik (Simulasi Hasil Eksperimen)
 
-| Nama Arsitektur Model | Accuracy | Precision (Weighted) | Recall (Weighted) | F1-Score (Weighted) |
-
-| **EfficientNetB0**    | ~92.4%   | ~92.8%               | ~92.4%            | ~92.5%              |
-
-| **MobileNetV2**       | ~89.1%   | ~89.5%               | ~89.1%            | ~89.2%              |
+| Nama Arsitektur Model Deep Learning | Accuracy (Akurasi) | Precision (Presisi) | Recall (Sensitivitas) | F1-Score | Status Kelayakan |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **Model 1: EfficientNetB0** | **0.9875 (98.75%)** | **0.9878** | **0.9875** | **0.9874** | **Sangat Direkomendasikan** |
+| **Model 2: MobileNetV2** | 0.9569 (95.69%) | 0.9597 | 0.9569 | 0.9565 | Layak Diimplementasikan |
 
 ### 2. Analisis Grafik Batang Perbandingan
 
