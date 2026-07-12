@@ -7,7 +7,7 @@
 
 1. YUSEP NURHOLIS 2406095
 2. Fugi Kusnaedi 2406088
-
+**LINK dataset** : kaggle.com/datasets/nirmalsankalana/rice-leaf-disease-image
 ---
 
 ## 1. Judul Proyek
