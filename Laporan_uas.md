@@ -74,15 +74,16 @@ Dataset yang digunakan dalam eksperimen ini adalah **"Rice Leaf Disease Images"*
 
 Proses EDA dilakukan secara ketat di dalam notebook untuk memastikan kualitas data sebelum masuk ke tahap pemodelan:
 
+1. **Analisis Distribusi Kelas:** Menghitung jumlah total citra per folder kelas. Hal ini penting untuk mengidentifikasi apakah terdapat masalah ketidakseimbangan data (_class imbalance_) yang dapat membuat model cenderung bias ke kelas mayoritas. Hasil perhitungan divisualisasikan menggunakan grafik batang (_countplot_).
+2. **Pengecekan File Rusak (Corruption Check):** Melakukan iterasi dan verifikasi struktural pada setiap berkas gambar menggunakan library `PIL (Pillow)`. Gambar yang tidak memiliki struktur header biner yang valid atau gagal didekode (`UnidentifiedImageError`) akan otomatis diisolasi agar tidak merusak proses _training_.
+3. **Reduksi Data Duplikat (Data Deduplication):** Gambar-gambar yang identik (hasil duplikasi tak sengaja) dideteksi secara presisi dengan menghitung nilai checksum **MD5 Hash** dari isi biner file. Gambar dengan hash MD5 yang sama hanya akan dipertahankan satu (entri pertama), sedangkan duplikatnya dihapus. Langkah ini krusial untuk mencegah terjadinya kebocoran data (_data leakage_) dari set data latih ke data uji.
+
 <img width="704" height="419" alt="output" src="https://github.com/user-attachments/assets/b743110a-85ff-4933-b711-472d37e05d9c" />
 
 
 Grafik batang di atas menampilkan distribusi jumlah gambar setelah melewati tahap pembersihan data awal. Dataset menunjukkan kondisi yang sangat ideal (perfectly balanced dataset) di mana masing-masing dari empat kelas—yaitu Bacterial Blight, Blast, Brown Spot, dan Healthy—memiliki jumlah sampel yang sama persis, yaitu sebanyak 1.483 gambar per kelas. Keseimbangan data ini sangat menguntungkan proses pelatihan model Deep Learning karena menghilangkan risiko bias terhadap kelas tertentu, sehingga metrik akurasi yang dihasilkan nantinya akan bersifat objektif dan tepercaya tanpa perlu perlakuan khusus seperti oversampling atau undersampling
 
 
-1. **Analisis Distribusi Kelas:** Menghitung jumlah total citra per folder kelas. Hal ini penting untuk mengidentifikasi apakah terdapat masalah ketidakseimbangan data (_class imbalance_) yang dapat membuat model cenderung bias ke kelas mayoritas. Hasil perhitungan divisualisasikan menggunakan grafik batang (_countplot_).
-2. **Pengecekan File Rusak (Corruption Check):** Melakukan iterasi dan verifikasi struktural pada setiap berkas gambar menggunakan library `PIL (Pillow)`. Gambar yang tidak memiliki struktur header biner yang valid atau gagal didekode (`UnidentifiedImageError`) akan otomatis diisolasi agar tidak merusak proses _training_.
-3. **Reduksi Data Duplikat (Data Deduplication):** Gambar-gambar yang identik (hasil duplikasi tak sengaja) dideteksi secara presisi dengan menghitung nilai checksum **MD5 Hash** dari isi biner file. Gambar dengan hash MD5 yang sama hanya akan dipertahankan satu (entri pertama), sedangkan duplikatnya dihapus. Langkah ini krusial untuk mencegah terjadinya kebocoran data (_data leakage_) dari set data latih ke data uji.
 
 <img width="491" height="374" alt="output" src="https://github.com/user-attachments/assets/62f8616d-1769-4690-af31-36372b326499" />
 
