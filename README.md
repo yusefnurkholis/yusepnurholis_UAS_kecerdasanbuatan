@@ -19,7 +19,7 @@ Proyek ini membandingkan dua arsitektur _Convolutional Neural Network_ (CNN) mut
 
 ### Dataset
 
-Dataset yang digunakan berasal dari platform Kaggle yaitu **Rice Leaf Disease Images** (`nirmalsankalana/rice-leaf-disease-image`), yang mencakup citra daun padi sehat dan daun padi yang terinfeksi patogen.
+Dataset yang digunakan berasal dari platform Kaggle yaitu **Rice Leaf Disease Images** (`nirmalsankalana/rice-leaf-disease-image`), link dataset (kaggle.com/datasets/nirmalsankalana/rice-leaf-disease-image ) yang mencakup citra daun padi sehat dan daun padi yang terinfeksi patogen.
 
 ---
 
