@@ -44,17 +44,17 @@ Penataan folder dan berkas di dalam repositori ini disusun secara sistematis seb
 
 | Nama Berkas / Folder | Jenis | Keterangan |
 | :--- | :---: | :--- |
-| **`data/`** | Folder | Direktori penyimpanan seluruh data proyek |
-| ├── **`Jurnal/`** | Folder | Berkas referensi jurnal ilmiah berformat `.pdf` |
-| └── **`Rice Leaf Disease Images/`** | Folder | Folder dataset gambar daun padi asli dari Kaggle |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── *Bacterial Leaf Blight/* | Folder | Kumpulan sampel gambar penyakit Hawar Daun Bakteri |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── *Brown Spot/* | Folder | Kumpulan sampel gambar penyakit Bercak Coklat |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── *Leaf Smut/* | Folder | Kumpulan sampel gambar penyakit *Leaf Smut* |
-| **`.gitignore`** | Berkas | Daftar folder/berkas rahasia atau besar yang diabaikan oleh Git |
-| **`DeepLearning_ComputerVision_Kel6_RevisiTotal.ipynb`** | Berkas | Notebook eksperimen utama (Pembersihan, Training, & Evaluasi) |
-| **`Laporan_uas.md`** | Berkas | Naskah laporan tertulis formal lengkap sesuai 9 kriteria rubrik |
-| **`README.md`** | Berkas | Dokumen panduan utama repositori (berkas ini) |
-| **`requirements.txt`** | Berkas | Daftar pustaka (*dependencies*) Python yang wajib dipasang |
+| data/ | Folder | Direktori penyimpanan seluruh data proyek |
+| ├── Jurnal/ | Folder | Berkas referensi jurnal ilmiah berformat .pdf |
+| └── Rice Leaf Disease Images/ | Folder | Folder dataset gambar daun padi asli dari Kaggle |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Bacterial Leaf Blight/ | Folder | Kumpulan sampel gambar penyakit Hawar Daun Bakteri |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Brown Spot/ | Folder | Kumpulan sampel gambar penyakit Bercak Coklat |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Leaf Smut/ | Folder | Kumpulan sampel gambar penyakit Leaf Smut |
+| .gitignore | Berkas | Daftar folder/berkas rahasia atau besar yang diabaikan oleh Git |
+| DeepLearning_ComputerVision_Kel6_RevisiTotal.ipynb | Berkas | Notebook eksperimen utama (Pembersihan, Training, & Evaluasi) |
+| Laporan_uas.md | Berkas | Naskah laporan tertulis formal lengkap sesuai 9 kriteria rubrik |
+| README.md | Berkas | Dokumen panduan utama repositori (berkas ini) |
+| requirements.txt | Berkas | Daftar pustaka (dependencies) Python yang wajib dipasang |
 
 
 ## Penjelasan Langkah Pengerjaan Proyek
