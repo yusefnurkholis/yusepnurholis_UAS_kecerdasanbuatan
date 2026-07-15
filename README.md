@@ -44,17 +44,12 @@ Penataan folder dan berkas di dalam repositori ini disusun secara sistematis seb
 
 | Nama Berkas / Folder | Jenis | Keterangan |
 | :--- | :---: | :--- |
-| data/ | Folder | Direktori penyimpanan seluruh data proyek |
-| ├── Jurnal/ | Folder | Berkas referensi jurnal ilmiah berformat .pdf |
-| └── Rice Leaf Disease Images/ | Folder | Folder dataset gambar daun padi asli dari Kaggle |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Bacterial Leaf Blight/ | Folder | Kumpulan sampel gambar penyakit Hawar Daun Bakteri |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Brown Spot/ | Folder | Kumpulan sampel gambar penyakit Bercak Coklat |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Leaf Smut/ | Folder | Kumpulan sampel gambar penyakit Leaf Smut |
-| .gitignore | Berkas | Daftar folder/berkas rahasia atau besar yang diabaikan oleh Git |
-| DeepLearning_ComputerVision_Kel6_RevisiTotal.ipynb | Berkas | Notebook eksperimen utama (Pembersihan, Training, & Evaluasi) |
-| Laporan_uas.md | Berkas | Naskah laporan tertulis formal lengkap sesuai 9 kriteria rubrik |
-| README.md | Berkas | Dokumen panduan utama repositori (berkas ini) |
-| requirements.txt | Berkas | Daftar pustaka (dependencies) Python yang wajib dipasang |
+| data/ | Folder | Direktori penyimpanan data dan referensi proyek |
+| ├── dataset/ | Folder | Folder tempat menyimpan sampel atau berkas data citra daun padi |
+| └── Jurnal/ | Folder | Folder tempat menyimpan file PDF referensi ilmiah (minimal 5 jurnal) |
+| Laporan_uas.md | Berkas | Laporan komprehensif tertulis yang mencakup analisis Poin 1 sampai Poin 10 |
+| README.md | Berkas | Dokumen panduan utama repositori & penjelasan langkah pengerjaan (berkas ini) |
+| uas_KecerdasanBuatan_model.ipynb | Berkas | Notebook Jupyter berisi seluruh kode eksperimen, EDA, training, dan evaluasi |
 
 
 ## Penjelasan Langkah Pengerjaan Proyek
