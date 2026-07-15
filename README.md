@@ -2,6 +2,15 @@
 
 Repositori ini dibuat untuk memenuhi tugas **Ujian Akhir Semester (UAS) Mata Kuliah Kecerdasan Buatan**. Proyek ini berfokus pada implementasi teknologi _Computer Vision_ menggunakan pendekatan _Deep Learning_ untuk mendeteksi dan mengklasifikasikan berbagai jenis penyakit pada daun tanaman padi (_Oryza sativa_).
 
+---
+
+## Anggota Kelompok 6
+
+- YUSEP NURHOLIS 2406095
+- Fugi Kusnaedi 2406088
+
+---
+
 ## Arsitektur Repositori
 
 - **`README.md`** : Dokumen panduan utama repositori yang berisi deskripsi singkat proyek, cara instalasi, dan ringkasan eksekusi.
@@ -21,12 +30,7 @@ Proyek ini membandingkan dua arsitektur _Convolutional Neural Network_ (CNN) mut
 
 Dataset yang digunakan berasal dari platform Kaggle yaitu **Rice Leaf Disease Images** (`nirmalsankalana/rice-leaf-disease-image`), link dataset (kaggle.com/datasets/nirmalsankalana/rice-leaf-disease-image ) yang mencakup citra daun padi sehat dan daun padi yang terinfeksi patogen.
 
----
 
-## Anggota Kelompok 6
-
-- YUSEP NURHOLIS 2406095
-- Fugi Kusnaedi 2406088
 
 ---
 
